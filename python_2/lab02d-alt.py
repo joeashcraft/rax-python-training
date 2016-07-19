@@ -11,6 +11,7 @@ each word. There is a method that will do this for you.
 file = open("./Python II Data/alice_in_wonderland.dat", 'r')
 data = file.read()
 data = data.lower()
+# cheat! we haven't learned lists yet.
 words = ["caterpillar", "gryphon"]
 
 for word in words:
