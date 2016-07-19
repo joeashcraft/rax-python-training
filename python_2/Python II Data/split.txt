@@ -1,0 +1,23 @@
+My first version was rough, but it worked. Students did the reading, and they
+understood enough that I could spend class time on the hard topics, the interesting
+topics and (most important) letting the students practice.
+I released the book under the GNU Free Documentation License, which allows
+users to copy, modify, and distribute the book.
+What happened next is the cool part. Jeff Elkner, a high school teacher in Virginia,
+adopted my book and translated it into Python. He sent me a copy of his translation, 
+and I had the unusual experience of learning Python by reading my own book.
+Jeff and I revised the book, incorporated a case study by Chris Meyers, and in 2001
+we released How to Think Like a Computer Scientist: Learning with Python, also
+under the GNU Free Documentation License. As Green Tea Press, I published 
+the book and started selling hard copies through Amazon.com and college book
+stores. 
+In 2003 I started teaching at Olin College and I got to teach Python for the first
+time. The contrast with Java was striking. Students struggled less, learned more,
+worked on more interesting projects, and generally had a lot more fun.
+Over the last five years I have continued to develop the book, correcting errors,
+improving some of the examples and adding material, especially exercises. In
+2008 I started work on a major revision-at the same time, I was contacted by an
+editor at Cambridge University Press who was interested in publishing the next
+edition. Good timing!
+I hope you enjoy working with this book, and that it helps you learn to program
+and think, at least a little bit, like a computer scientist.
