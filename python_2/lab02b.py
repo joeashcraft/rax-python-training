@@ -13,11 +13,11 @@ total_precip = 0.0
 
 for line in file:
     try:
-        # month == int(line[0:2])
-        # day   == int(line[2:4])
-        # year  == int(line[4:8])
+        # month = int(line[0:2])
+        # day   = int(line[2:4])
+        # year  = int(line[4:8])
         precip = float(line[8:13])
-        # hi_temp == int(line[13:])
+        # hi_temp = int(line[13:])
     except ValueError:
         continue
     if precip > 0:
