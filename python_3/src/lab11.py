@@ -17,10 +17,8 @@ def my_factorial(n):
     result = 1
     if n > 1:
         result *= n
-        # n -= 1
         return n * my_factorial(n - 1)
-    else:
-        return result
+    return result
 
 """n! =
 factorial(n):
