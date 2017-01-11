@@ -1,0 +1,5 @@
+---
+process: True
+thread: False
+workers: 5
+items: 10

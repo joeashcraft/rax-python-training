@@ -35,6 +35,7 @@ Note: add args as necessary to the skeleton functions below
 
 import queue
 import threading
+import multiprocessing
 
 
 # Don't change this function
@@ -89,7 +90,6 @@ def create_workers():
             p.start()
 
 
-
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
@@ -112,13 +112,13 @@ if __name__ == "__main__":
         work_q = queue.Queue()
         output_q = queue.Queue()
     else:  # if config.process:
-        work_q = multiprocessing.JoinableQueue(config.items+1)
-        output_q = multiprocessing.JoinableQueue(config.items+1)
+        work_q = multiprocessing.JoinableQueue(config.items + 1)
+        output_q = multiprocessing.JoinableQueue(config.items + 1)
 
-# now fill the queue
+    # now fill the queue
     work_items = range(config.items)
     for item in work_items:
         work_q.put(item)
 
-work_q.join()
-print(q)
+    work_q.join()
+    print(output_q)
