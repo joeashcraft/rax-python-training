@@ -1,5 +1,8 @@
 # python-training
 
+My repo for Python Training I attended with Rackspace University.
+
+
 ## Python II
 [Python II Data](http://tinyurl.com/py2dataz)  
 
